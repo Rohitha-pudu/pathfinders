@@ -1,0 +1,75 @@
+#na{
+    padding:2% 2%;
+}
+
+.navbar-brand{
+    font-family:'ubuntu';
+   
+    line-height:rem;
+  
+ }
+
+ #text{
+    text-align: center;
+ }
+
+ #second{
+    padding:5% 25%;
+   
+ }
+ #third{
+    padding:5% 6%;
+     
+ }
+ #cardi{
+    background-color:teal;
+    box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(4, 89, 51, 0.9);
+ }
+ h1{
+    text-align:center;
+    color:darkgreen;
+ }
+ #select{
+    padding-bottom:4rem;
+ }
+
+ #fill5{
+   font-size:1.5rem;
+   font-family:'Montserrat';
+  
+}
+
+#fourth{
+   padding:2% 9%;
+   background-color:
+
+}
+#secfirst{
+   padding:4% 7%;
+  
+}
+#ca{
+   background-color:black;
+   box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(18, 18, 19, 0.9);
+}
+#ca1{
+   background-color:black;
+   box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+h2{
+   text-align:center;
+   color:rgb(235, 136, 37);
+}
+#firstsec1{
+   padding:3% 6%;
+}
+#firstsem{
+   padding:5% 15%;
+}
+#firstca{
+   box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(99, 56, 25, 0.9);
+}
+
+#b1:hover{
+  color:blue;
+}
