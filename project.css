@@ -71,5 +71,77 @@ h2{
 }
 
 #b1:hover{
-  color:blue;
+  color:rgb(5, 5, 67);
+}
+
+#syl1{
+   padding:2% 11%;
+   background-color:rgb(2, 43, 55)
+}
+#sub1{
+   background-color:lavender;
+   padding:3% 8%;
+}
+
+#subjects{
+  font-size: xx-large;
+  color:darkblue
+  
+}
+#s{
+   font-size:60px;
+   color:chocolate
+}
+#pages{
+   padding:3% 41%;
+   
+}
+#web{
+   padding:2% 6%;
+}
+#webhead{
+   text-transform: capitalize;
+   font-size: xx-large;
+}
+#bioche{
+   padding:2% 6%;
+}
+#biohead{
+   text-transform: capitalize;
+   font-size: xx-large;
+}
+#alg{
+   padding:2% 6%;
+}
+#alghead{
+   text-transform: capitalize;
+   font-size: xx-large;
+}
+#co{
+   padding:2% 6%;
+}
+#cohead{
+   text-transform: capitalize;
+   font-size: xx-large;
+}
+#cpp{
+   padding:2% 6%;
+}
+#cpphead{
+   text-transform: capitalize;
+   font-size: xx-large;
+}
+#pop
+{
+   padding:2% 39%;
+}
+#fscse:hover{
+   color:rgb(0, 70, 30);
+   
+
+}
+#sscse:hover{
+   color:rgb(2, 68, 30);
+   bu
+
 }
