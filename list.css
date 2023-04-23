@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+h1{
+    color:darkred;
+}
+.it{
+    color:midnightblue;
+}
+/*body{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}*/
+body{
+    padding:8%;
+   
+}
+.container{
+    height:450px;
+    width:100px;
+    border-radius: 10px;
+    background-color:rgb(219, 210, 129);
+    padding:18px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    overflow-y: auto;
+    overflow-x: auto;
+}
+#input{
+     height:50px;
+     width:100%;
+     outline:none;
+     border:none;
+     border-radius: 5px;
+     background-color:forestgreen;
+     color:black;
+     padding:15px;
+     margin:15px 0px;
+}
+
+ul li{
+ background-color:black;
+ color:sandybrown;
+ height:40px;
+ border-radius:6px;
+ padding:11px;
+ margin:10px 0px;
+ position:relative;
+ 
+}
+ul .fa-check,.fa-trash{
+    position:absolute;
+    curser:pointer;
+}
+ul .fa-trash{
+    right:40px;
+    color:red;
+}
+ul .fa-check{
+    right:70px;
+    color:green;
+}
+ .checked{
+   background-color:lightcoral;
+   text-decoration: line-through;
+   transition:0.3sec;
+   color:black;
+}

@@ -36,7 +36,7 @@
     
     <nav class="navbar navbar-dark bg-dark fixed-top" id="na">
       <div class="container-fluid">
-        <a class="navbar-brand fs-1" href="#">PathFinders</a>
+        <a class="navbar-brand fs-1" href="#" id="tit">PathFinders</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,6 +66,9 @@
                   <li><a class="dropdown-item fs-5" href="#">Become A Member</a></li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" id="todo" href="todo.html">To Do List</a>
+              </li>
             </ul>
             <form class="d-flex mt-3" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -85,13 +88,15 @@
     
  <div id="subjects">
     <p id="s">Subjects</p>
-    <ul>
-        <li>Web Design</li>
-        <li>Biochemistry</li>
-        <li>Linear Algebra And Lensors</li>
-        <li>Computer Organisation</li>
-        <li>Programming In Modern C++</li>
+    <ul id="ul1">
+        <a href="cseweb.html" style="text-decoration:none;color:black;"><li id="li1">Web Design</li></a>
+        <a href="csebioche.html" style="text-decoration:none;color:black;"><li>Biochemistry</li></a>
+        <a href="csealg.html"  style="text-decoration:none;color:black;"><li>Linear Algebra And Lensors</li></a>
+        <a href="cseco.html" style="text-decoration:none;color:black;"><li>Computer Organisation</li></a>
+        <a href="csecpp.html" style="text-decoration:none;color:black;"><li>Programming In Modern C++</li></a>
     </ul>
+
+    
     </div>
 </div>
 
@@ -109,9 +114,9 @@
         </li>
         <li class="page-item"><a class="page-link" href="cseweb.html">1</a></li>
         <li class="page-item"><a class="page-link" href="csebioche.html">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="csealg.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="cseco.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="csecpp.html">5</a></li>
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Next">
             <span aria-hidden="true">»</span>
@@ -123,3 +128,32 @@
     
   
     <!-- pagination-->
+    <!--last page-->
+<section id="fourth">
+  <div class="row">
+    <div class="col-lg-4" id="fill5">
+      
+    <i class="fa-solid fa-laptop fa-fade fa-2xl"></i>PathFinders
+    </div>
+
+    <div class="col-lg-4 ">
+      © 2023 PathFinders
+    </div>
+    
+    <div class="col-lg-4" id="icon">
+    
+
+      <i class="fa-brands fa-facebook-f fa-2xl sti las"></i>
+        <i class="fa-brands fa-square-instagram fa-2xl sti las"></i>
+         <i class="fa-solid fa-envelope fa-2xl las"></i>
+         <i class="fa-brands fa-linkedin fa-2xl las"></i>
+          
+       
+    
+  </div>
+   
+
+  </div>
+
+</section>
+<!--icons close-->

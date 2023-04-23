@@ -1,7 +1,7 @@
 #na{
     padding:2% 2%;
 }
-
+w
 .navbar-brand{
     font-family:'ubuntu';
    
@@ -15,22 +15,25 @@
 
  #second{
     padding:5% 25%;
+    background-color:rgb(238, 236, 236);
    
  }
  #third{
-    padding:5% 6%;
-     
+    padding:5% 6%;    
  }
  #cardi{
-    background-color:teal;
-    box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(4, 89, 51, 0.9);
+    background-color:black;
+    opacity:0.9;
+    box-shadow: 0 4px 8px 0 rgba(16, 12, 15, 0.2), 0 6px 20px 0 rgba(18, 19, 18, 0.9);
  }
  h1{
     text-align:center;
-    color:darkgreen;
+    /*color:darkgreen;*/
  }
  #select{
-    padding-bottom:4rem;
+    padding-bottom:6rem;
+    text-align: center;
+    color:rgb(75, 4, 75);
  }
 
  #fill5{
@@ -41,7 +44,7 @@
 
 #fourth{
    padding:2% 9%;
-   background-color:
+   background-color:aliceblue;
 
 }
 #secfirst{
@@ -67,7 +70,8 @@ h2{
    padding:5% 15%;
 }
 #firstca{
-   box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(99, 56, 25, 0.9);
+   box-shadow: 0 4px 8px 0 rgba(5, 3, 4, 0.2), 0 6px 20px 0 rgba(16, 13, 12, 0.9);
+   
 }
 
 #b1:hover{
@@ -76,21 +80,23 @@ h2{
 
 #syl1{
    padding:2% 11%;
-   background-color:rgb(2, 43, 55)
+   background-color:mintcream
 }
 #sub1{
    background-color:lavender;
    padding:3% 8%;
+   box-shadow: 0 4px 8px 0 rgba(15, 11, 14, 0.2), 0 6px 20px 0 rgba(26, 14, 6, 0.9); ;
 }
 
 #subjects{
   font-size: xx-large;
-  color:darkblue
+  color:darkslateblue;
   
 }
 #s{
    font-size:60px;
-   color:chocolate
+   color:rgb(214, 118, 50);
+   letter-spacing: 1px;
 }
 #pages{
    padding:3% 41%;
@@ -144,4 +150,79 @@ h2{
    color:rgb(2, 68, 30);
    bu
 
+}
+#todo:hover{
+   background-color:rgb(211, 152, 41);
+   border-radius:6px;
+   color:black;
+}
+#togg:hover{
+   background-color:rgb(218, 187, 35);
+   border-radius:6px;
+   color:black;
+}
+/*h1{
+   color:rgb(211, 152, 41)
+}*/
+h4{
+   color:white;
+   padding:3% 2%;
+   font-size:x-large;
+}
+#abouttext{
+   font-size:xx-large;
+   padding:2% 2%;
+   opacity:0.6;
+   color:antiquewhite;
+}
+#tit{
+   letter-spacing: 1px;
+   color:antiquewhite;
+   font-weight: 600;
+}
+#tit:hover{
+   color:ghostwhite;
+}
+.fa-ticket{
+   color:thistle
+}
+.fa-ticket:hover{
+   color:mediumvioletred
+}
+
+.las{
+   padding:5px;
+}
+#pages{
+   background-color;
+}
+.page-item:hover{
+     color:rgb(218, 187, 35);
+}
+
+.chat-icon{
+   right:30px;
+   position:fixed;
+   bottom:0;
+   z-index: 1000;
+   cursor:pointer;
+   color:rebeccapurple;
+}
+.chat-box{
+   position:fixed;
+   right:15px;
+   height:600px;
+   width:400px;
+   bottom:80px;
+   background-color:bisque;
+   border-radius: 16px;
+   z-index:1000;
+   transition: ease out;
+   transform:scaleY(0);
+}
+.chat-box.active{
+   transform:scaleY(1);
+}
+.hidden{
+   display:none !important;
 }
