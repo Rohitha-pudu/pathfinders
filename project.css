@@ -248,7 +248,7 @@ h4{
 .thim{
    height: 90%;
 }
-@media (max-width: 575.98px) { 
+@media (max-width: 500px) { 
   
 #fourth{
     padding:2rem 2rem 1rem;
