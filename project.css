@@ -18,10 +18,16 @@ w
     background-color:rgb(238, 236, 236);
    
  }
+ /*@media (max-width: 575.98px) { 
+   #cardi{
+        height:100px;
+   }
+}*/
  #third{
     padding:5% 6%;    
  }
  #cardi{
+   max-width: 100rem;height:38rem;
     background-color:black;
     opacity:0.9;
     box-shadow: 0 4px 8px 0 rgba(16, 12, 15, 0.2), 0 6px 20px 0 rgba(18, 19, 18, 0.9);
@@ -47,15 +53,23 @@ w
    background-color:aliceblue;
 
 }
+
+
+
+
+
+
 #secfirst{
    padding:4% 7%;
   
 }
 #ca{
+   width: 80rem;height:30rem;
    background-color:black;
    box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(18, 18, 19, 0.9);
 }
 #ca1{
+   width: 80rem;height:90rem;
    background-color:black;
    box-shadow: 0 4px 8px 0 rgba(228, 10, 155, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
@@ -71,7 +85,11 @@ h2{
 }
 #firstca{
    box-shadow: 0 4px 8px 0 rgba(5, 3, 4, 0.2), 0 6px 20px 0 rgba(16, 13, 12, 0.9);
+   padding: 8% 8%;
    
+}
+#car1{
+   padding-bottom: 5px;
 }
 
 #b1:hover{
@@ -83,6 +101,7 @@ h2{
    background-color:mintcream
 }
 #sub1{
+   max-width: 90rem;height:30rem;
    background-color:lavender;
    padding:3% 8%;
    box-shadow: 0 4px 8px 0 rgba(15, 11, 14, 0.2), 0 6px 20px 0 rgba(26, 14, 6, 0.9); ;
@@ -226,3 +245,47 @@ h4{
 .hidden{
    display:none !important;
 }
+.thim{
+   height: 90%;
+}
+@media (max-width: 575.98px) { 
+  
+#fourth{
+    padding:2rem 2rem 1rem;
+    overflow: hidden;
+}
+.hi{
+   padding-left: 15px;
+ margin-bottom:15%;
+ overflow: hidden;
+}
+
+#cardi{
+   width:418px;
+   height:690px;
+   overflow: hidden;
+}
+#ca1{
+   width:400px;
+   height:3020px;
+}
+#firstsec1{
+   padding:2% 3%;
+   padding-left: 45px;
+}
+#fifacard{
+   padding-right:12px;
+   width:320px;
+   
+}
+#ca{
+   width:400px;
+   height:580px;
+}
+#sub1{
+   height:540px;
+}
+#pages{
+   padding-left:100px;
+}
+} 
