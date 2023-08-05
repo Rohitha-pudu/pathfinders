@@ -25,6 +25,64 @@
 
 
 <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6445701a31ebfa0fe7f9eea9/1gunjrqiv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  
+<script> 
+  $(document).ready(function(){
+    $("#flip25").click(function(){
+      $("#panel25").slideToggle("slow");
+    });
+    $("#flip26").click(function(){
+      $("#panel26").slideToggle("slow");
+    });
+    $("#flip27").click(function(){
+      $("#panel27").slideToggle("slow");
+    });
+    $("#flip28").click(function(){
+      $("#panel28").slideToggle("slow");
+    });
+    $("#flip29").click(function(){
+      $("#panel29").slideToggle("slow");
+    });
+    $("#flip30").click(function(){
+      $("#panel30").slideToggle("slow");
+    });
+    $("#flip31").click(function(){
+      $("#panel31").slideToggle("slow");
+    }); $("#flip32").click(function(){
+      $("#panel32").slideToggle("slow");
+    });
+
+  });
+  function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+  </script>
 
   
   </head>
@@ -46,10 +104,10 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active fs-5" aria-current="page" href="#">Sign In</a>
+                <a class="nav-link active fs-5" aria-current="page" href="signup.html">Sign In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Sign Up</a>
+                <a class="nav-link fs-5" href="signup.html">Sign Up</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,7 +119,7 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item fs-5" href="#">Become A Member</a></li>
+                  <li><a class="dropdown-item fs-5" href="signup.html">Become A Member</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -80,12 +138,180 @@
     <!-- End Example Code -->
   </div>
   <section id="co">
+    <div class="callout">
+      <div class="callout-header">Callout</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span>
+      <div class="callout-container">
+        <p>Computer organization is a fundamental aspect of computer science and refers to the way hardware components are interconnected and how they work together to perform various tasks...</p>
+      </div>
+    </div>
     <lord-icon
     src="https://cdn.lordicon.com/xhcrhqyw.json"
     trigger="hover"
     colors="primary:#0a2e5c"
     style="width:50px;height:50px">
-</lord-icon><h3 id="cohead">computer organisation</h3>
+</lord-icon><h3 id="cohead">computer organisation</h3><br><br>
+<button type="button" class="btn btn-info"><a href="timeline.html" style="text-decoration:none;color:black;">Timeline</a></button>
+<br><br><div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Search</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="https://www.w3schools.com/tags/tag_video.asp">header tags</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">forms</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">tables</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">selectors</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">html5</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">Dom</a>
+    <a href="https://www.w3schools.com/tags/tag_video.asp">styles</a>
+  </div>
+</div>
+<br><br>
+<p id="webtopichead">Topics</p>
+     <ul id="webtopic">
+      <li><div id="flip25">HTML <button type="button" class="btn btn-dark" id="webdts">View More</button></div>
+        <div id="panel25">
+          <div class="">
+            <div class="row">
+              <div class="col" id="colweb">
+                Best websites to learn<br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.w3schools.com/html/default.asp">W3 schools</a></li>
+                  <li><a id="crs" href="https://www.udemy.com/">Udemy</a></li>
+                  <li><a id="crs" href="https://www.freecodecamp.org/">Free code camp</a></li>
+                </ol> 
+              </div>
+              <div class="col" id="colweb">
+                Best youtube channels <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.youtube.com/@NetNinja">NetNinja</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@programmingwithmosh">Programming with mosh</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@codecademy">codecademy</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Certifications <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.coursera.org/">Coursera</a></li>
+                  <li><a id="crs" href="https://www.udacity.com/">Udacity</a></li><br>
+                  <div id="flip26"><button type="button" class="btn btn-dark" id="suggestion">Suggestions</button></div>
+                    <div id="panel26"></div>
+                  
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </li><br>
+      <li><div id="flip27">HTML5 <button type="button" class="btn btn-dark" id="webdts2">View More</button></div>
+        <div id="panel27">
+          <div class="">
+            <div class="row">
+              <div class="col" id="colweb">
+                Best websites to learn<br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.w3schools.com/html/default.asp">W3 schools</a></li>
+                  <li><a id="crs" href="https://www.udemy.com/">Udemy</a></li>
+                  <li><a id="crs" href="https://www.freecodecamp.org/">Free code camp</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Best youtube channels <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.youtube.com/@NetNinja">NetNinja</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@programmingwithmosh">Programming with mosh</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@codecademy">codecademy</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Certifications <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.coursera.org/">Coursera</a></li>
+                  <li><a id="crs" href="https://www.udacity.com/">Udacity</a></li><br>
+                  <div id="flip28"><button type="button" class="btn btn-dark" id="suggestion">Suggestions</button></div>
+                    <div id="panel28"></div>
+                  
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </li><br>
+      
+      <li><div id="flip29">CSS <button type="button" class="btn btn-dark" id="webdts3">View More</button></div>
+        <div id="panel29">
+          <div class="">
+            <div class="row">
+              <div class="col" id="colweb">
+                Best websites to learn<br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.w3schools.com/html/default.asp">W3 schools</a></li>
+                  <li><a id="crs" href="https://www.udemy.com/">Udemy</a></li>
+                  <li><a id="crs" href="https://www.freecodecamp.org/">Free code camp</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Best youtube channels <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.youtube.com/@NetNinja">NetNinja</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@programmingwithmosh">Programming with mosh</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@codecademy">codecademy</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Certifications <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.coursera.org/">Coursera</a></li>
+                  <li><a id="crs" href="https://www.udacity.com/">Udacity</a></li><br>
+                  <div id="flip30"><button type="button" class="btn btn-dark" id="suggestion">Suggestions</button></div>
+                    <div id="panel30"></div>
+                  
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </li><br>
+      
+      <li><div id="flip31">Java Script <button type="button" class="btn btn-dark" id="webdts4">View More</button></div>
+        <div id="panel31">
+          <div class="">
+            <div class="row">
+              <div class="col" id="colweb">
+                Best websites to learn<br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.w3schools.com/html/default.asp">W3 schools</a></li>
+                  <li><a id="crs" href="https://www.udemy.com/">Udemy</a></li>
+                  <li><a id="crs" href="https://www.freecodecamp.org/">Free code camp</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Best youtube channels <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.youtube.com/@NetNinja">NetNinja</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@programmingwithmosh">Programming with mosh</a></li>
+                  <li><a id="crs" href="https://www.youtube.com/@codecademy">codecademy</a></li>
+                </ol>
+              </div>
+              <div class="col" id="colweb">
+                Certifications <br> <br>
+                <ol>
+                  <li><a id="crs" href="https://www.coursera.org/">Coursera</a></li>
+                  <li><a id="crs" href="https://www.udacity.com/">Udacity</a></li><br>
+                  <div id="flip32"><button type="button" class="btn btn-dark" id="suggestion">Suggestions</button></div>
+                    <div id="panel32"></div>
+                  
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+     </ul>
 </section>
  <!--pagination-->
  <div id="pages">
